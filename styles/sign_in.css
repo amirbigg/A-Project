@@ -1,0 +1,53 @@
+.sign_in_form_container{
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #F4EBEB;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.sign_in_form_title{
+    font-size: 20px;
+}
+
+.sign_in_form{
+    padding: 40px 0px;
+}
+
+.sign_in_input{
+    color: #111;
+    direction: ltr !important;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    border-bottom: 1px solid #E1CBCB;
+    width: 200px;
+    font-size: 15px;
+}
+
+.sign_in_input:focus{
+    border-bottom: 1px solid #C5A9A9;
+}
+
+.sign_in_submit{
+    border: none;
+    background-color: #FF4242;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.sign_in_google{
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.sign_in_forget_pass, .sign_in_sign_up{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0px;
+}

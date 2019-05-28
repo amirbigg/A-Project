@@ -1,0 +1,170 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {}
+
+
+
+/* MAIN */
+.main_container{
+    direction: ltr;
+    text-align: center;
+    padding: 50px;
+}
+
+.main_container > h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.main_container > video{
+    width: 700px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .main_container > h1{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+/* END MAIN */
+
+/* RELATED VIDEOS */
+.related_videos_title{
+    margin: 50px auto 0 auto;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.related_videos_container{
+    direction: ltr;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.related_video{
+    width: 400px;
+    height: auto;
+    min-height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: all .2s linear;
+    margin: 20px;
+}
+
+.related_video:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.related_video_link{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.related_video_tags{
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .related_videos_title{
+        font-size: 20px;
+        width: 200px;
+    }
+    .related_video_link{
+        font-size: 18px;
+    }
+}
+
+/* END RELATED VIDEOS */
+
+/* FORM */
+
+.form_container{
+    background-color: #F4EBEB;
+    padding: 40px 30px;
+    margin: 10px 30px;
+}
+
+.form_title{
+    padding: 50px 20px 5px 20px;
+    font-size: 20px;
+}
+
+.form{
+
+}
+
+
+.form_input{
+    outline: none;
+    display: block;
+    color: #111;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #E1CBCB;
+    border-radius: 2px;
+    width: 400px;
+    font-size: 18px;
+    margin: 5px 0px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+}
+
+.form_input:focus{
+    border: 1px solid #C5A9A9;
+}
+
+.comment_input{
+    resize: vertical;
+    height: 250px;
+}
+
+.submit_btn{
+    border: none;
+    background-color: #FF4242;
+    color: #fefefe;
+    font-size: 18px;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .form_input{
+        padding: 10px 15px;
+        width: 300px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .form_input{
+        width: 250px;
+    }
+}
+
+/* Very Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 400px) {
+    .form_input{
+        width: 200px;
+    }
+}
+/* END FORM */

@@ -1,0 +1,145 @@
+/* MEDIA QUERIES */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {}
+
+
+
+
+
+/* TOP PART */
+.one_part_top_part {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.one_part_top_background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    transform: skewY(-4deg);
+    transform-origin: top left;
+}
+
+.one_part_top_text {
+    position: relative;
+    margin: 100px auto;
+    max-width: 200px;
+    border-bottom: 1px solid #fefefe;
+    font-size: 30px;
+    text-align: center;
+    color: #fefefe;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .one_part_top_part{
+        height: 200px;
+    }
+    .one_part_top_text{
+        font-size: 24px;
+        margin: 50px auto;
+    }
+}
+
+/* END TOP PART */
+
+/* SEARCH FORM */
+.search_form{
+    direction: ltr;
+    text-align: center;
+    margin: 10px;
+}
+
+.search_form_input{
+    outline: none;
+    color: #111;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #E1CBCB;
+    border-radius: 2px;
+    width: 400px;
+    font-size: 18px;
+    margin: 5px 0px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+}
+
+.search_form_input:focus{
+    border: 1px solid #C5A9A9;
+}
+
+.search_form_btn{
+    border: none;
+    background-color: #FF4242;
+    color: #fefefe;
+    font-size: 18px;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .search_form_input{
+        width: 200px;
+    }
+}
+
+
+
+/* END SEARCH FORM */
+
+/* ALL ONE PARTS */
+.all_parts_container{
+    direction: ltr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.one_part{
+    width: 400px;
+    height: auto;
+    min-height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+    transition: all .2s linear;
+}
+
+.one_part:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.one_part_link{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.one_part_tags{
+    width: 250px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+/* END ALL ONE PARTS */

@@ -1,0 +1,224 @@
+/* MEDIA QUERIES */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {}
+
+
+
+
+.course_container{
+
+}
+
+.course_top_container{
+
+}
+
+.course_top_title{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0px;
+}
+
+.course_top_description{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.episodes_list_container{
+    text-align: right;
+    max-width: 900px;
+    margin: 100px 30px 100px 10px;
+}
+
+.episode_container{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #E2E2E2;
+    transition: all .1s linear;
+}
+
+.episode_container:hover{
+    background-color: #F7F7F7;
+}
+
+.episode_counter{
+    display: inline;
+    padding: 0px 10px;
+    color: #2FA4B6;
+    font-size: 20px;
+}
+
+.episode_link{
+    max-width: 650px;
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    transition: all .1s linear;
+}
+
+.episode_link:hover{
+    color: #383838;
+}
+
+.course_time{
+    position: absolute;
+    left: 10px;
+    display: inline;
+    margin: 0px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .course_top_description{
+        font-size: 18px;
+    }
+
+    .episode_link{
+        font-size: 16px;
+    }
+
+    .course_time{
+        display: none;
+    }
+
+}
+
+
+
+/* FORM */
+
+.form_container{
+    background-color: #F4EBEB;
+    padding: 40px 30px;
+    margin: 10px 30px;
+}
+
+.form_title{
+    padding: 50px 20px 5px 20px;
+    font-size: 20px;
+}
+
+.form{
+
+}
+
+
+.form_input{
+    outline: none;
+    display: block;
+    color: #111;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #E1CBCB;
+    border-radius: 2px;
+    width: 400px;
+    font-size: 18px;
+    margin: 5px 0px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+}
+
+.form_input:focus{
+    border: 1px solid #C5A9A9;
+}
+
+.comment_input{
+    resize: vertical;
+    height: 250px;
+}
+
+.submit_btn{
+    border: none;
+    background-color: #FF4242;
+    color: #fefefe;
+    font-size: 18px;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .form_input{
+        padding: 10px 15px;
+        width: 300px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .form_input{
+        width: 250px;
+    }
+}
+
+/* Very Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 400px) {
+    .form_input{
+        width: 200px;
+    }
+}
+
+
+/* END FORM */
+
+/* ALL COMMENTS */
+
+.all_comments_container{
+    background-color: #F4EBEB;
+    padding: 20px;
+}
+
+.comment_container{
+    position: relative;
+    border-radius: 5px;
+    max-width: 80%;
+    background-color: #fefefe;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.comments_sender{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 10px;
+    color: #EA0000;
+}
+
+.comment_date{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 14px;
+    opacity: 0.5;
+    margin-right: 50px;
+}
+
+.comment{
+    max-width: 90%;
+    padding: 10px 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .comment{
+        font-size: 14px;
+    }
+}
+
+/* END ALL COMMENTS */
